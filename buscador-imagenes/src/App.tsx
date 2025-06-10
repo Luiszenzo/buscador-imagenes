@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Buscador de Imágenes PexeLocotasls</h1>
+      <h1>Buscador de Imágenes Locotes</h1>
 
       <form onSubmit={handleSubmit} className="search-form">
         <input
