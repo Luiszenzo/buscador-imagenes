@@ -1,4 +1,4 @@
-/* import { useState, useEffect, type FormEvent } from 'react';
+import { useState, useEffect, type FormEvent } from 'react';
 import './App.css';
 import type { Photo, PexelsResponse } from './types';
 
@@ -84,4 +84,4 @@ function App() {
   );
 }
 
-export default App; */
+export default App;
