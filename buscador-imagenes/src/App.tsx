@@ -9,8 +9,8 @@ function App() {
   const [error, setError] = useState<string | null>(null);
   const [inputSearch, setInputSearch] = useState<string>('');
 
-  const PEXELS_API_KEY: string = 'TU_CLAVE_PEXELS';
-
+  const PEXELS_API_KEY: string = 'RSLioouVaGCUKlvPCjqxeZjWmHYlmMbGQhfMGBC0qZZNJQFlBFncsPU4';
+/* Hola */
   useEffect(() => {
     fetchPhotos(query);
   }, [query]);
@@ -55,7 +55,7 @@ function App() {
 
   return (
     <div className="app-container">
-      <h1>Buscador de Imágenes Pexels</h1>
+      <h1>Buscador de Imágenes PexeLocotasls</h1>
 
       <form onSubmit={handleSubmit} className="search-form">
         <input
